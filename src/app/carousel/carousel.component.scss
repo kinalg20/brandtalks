@@ -1,12 +1,11 @@
 .product-item{
-    margin: 0 5px;
     .card{
-        width: fit-content;
+        margin: 0 5px;
         border-radius: 10px;
         position: relative;
         .card-image{
             position: relative;
-            width: 400px;
+            width: 100%;
             height: 400px;
             img{
                 position: absolute;
@@ -20,11 +19,13 @@
         .div{
             width: 100%;
             height: 100px;
-            background: linear-gradient(to right, #fa7c41 0%, #ff6565 100%);
+            background:#000;
             bottom: 0;
             position: absolute;
             opacity: 0.7;
-            border-radius: 10px;
+            // border-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
         }
 
         .card-content{
@@ -36,6 +37,7 @@
                 color: #dedede;
             }
         }
+
     }
 }
 
