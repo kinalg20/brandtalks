@@ -40,12 +40,8 @@
 
     }
 }
-
-p-carousel{
-    h2{
-        color: #31286b;
-        text-align: center;
-        text-decoration: underline;
+::ng-deep {
+    .p-carousel .p-carousel-indicators{
+        display: none;
     }
-    .p-carousel-indicators ul { visibility: hidden; }
 }
