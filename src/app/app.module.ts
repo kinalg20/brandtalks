@@ -16,7 +16,7 @@ import { IndexComponent } from './index/index.component';
     CarouselComponent,
     TestimonialsComponent,
     ContactUsComponent,
-    IndexComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +26,13 @@ import { IndexComponent } from './index/index.component';
     ToastModule,
     ButtonModule
   ],
+
+  exports:[
+    CarouselComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
