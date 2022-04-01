@@ -8,11 +8,15 @@ import {ButtonModule} from 'primeng/button';
 import {ToastModule} from 'primeng/toast';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { IndexComponent } from './index/index.component';
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ContactUsComponent,
+    IndexComponent,
   ],
   imports: [
     BrowserModule,
