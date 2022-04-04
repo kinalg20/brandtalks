@@ -5,8 +5,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { IndexComponent } from './index/index.component';
 
 const routes: Routes = [
-  {path: '',   redirectTo: '/', pathMatch: 'full'},
-  {path: '', component: IndexComponent},
+  {path: '',   redirectTo: '/index', pathMatch: 'full'},
+  {path: 'index', component: IndexComponent},
   {path:'contact', component:ContactUsComponent, pathMatch:"full"}
 ];
 
